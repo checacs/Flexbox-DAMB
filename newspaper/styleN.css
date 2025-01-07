@@ -1,0 +1,80 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+.main-encabezado{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    align-items: center;
+    border-bottom: 1xp solid #2c2c2c;
+    border-top: #2c2c2c 1px solid;
+}
+.main-encabezado .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.main-encabezado .titulo h1{
+    font-size: 3em;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.main-menu{
+    border-bottom: #2c2c2c 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu ul li{
+    list-style: none;
+}
+.main-menu ul li a{
+    color: #2c2c2c;
+    text-decoration: none;
+}
+.main-menu ul li a:hover{
+    color: antiquewhite;
+    background-color: #2c2c2c;
+    padding: 5px;
+    border-radius: 2px;
+}
+.FirstNew{
+    display: flex;
+    justify-content: space-around;
+
+}
+.FirstNew .col p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+.FirstNew .col .h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+.FirstNew .col .photo-footer{
+    display: flex;
+    
+}
+.FirstNew .col .photo-footer p, em{
+    font-size: 0.8em;
+    color: #2c2c2c;
+    text-align: center;
+   
+}
+.FirstNew .col{
+    width: 50%;
+    margin: 10px;
+}
+.FirstNew .col img{
+    width: 80%;
+}
